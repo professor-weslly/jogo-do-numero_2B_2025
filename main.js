@@ -55,7 +55,7 @@ function reiniciarJogo() {
   contagemPalpites = 1;
   const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultados p');
   for (const paragrafoReiniciar of paragrafosReiniciar) {
-    paragrafoReiniciar.textcontent = "";
+    paragrafoReiniciar.textContent = "";
 }
 
   botaoReiniciar.parentNode.removeChild(botaoReiniciar);
